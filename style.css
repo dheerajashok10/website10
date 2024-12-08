@@ -1,0 +1,67 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(241, 230, 230);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Heading */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #3498db;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 20px;
+}
+
+/* List Style for Education and Skills */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Navigation Buttons */
+.back-button {
+    display: inline-block;
+    text-decoration: none;
+    background: #3498db;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: #2980b9;
+}
